@@ -86,6 +86,7 @@ li.item ul li {
   flex-direction: column;
   align-items: center;
   gap: 40px;
+  margin-bottom: 50px;
 }
 input {
   padding: 8px 16px;
@@ -124,7 +125,10 @@ input {
   letter-spacing: 0.64px;
   margin-bottom: 8px;
 }
-.login-form button {
+.login-form button,
+.change-color,
+button[data-create],
+button[data-destroy] {
   margin-top: 24px;
   border-radius: 8px;
   border: none;
@@ -139,4 +143,53 @@ input {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+/* task-05 */
+.widget {
+  padding: 100px 88px;
+  border: solid 1px #9a9ba0;
+}
+.widget p {
+  color: #2e2f42;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.64px;
+  margin-bottom: 16px;
+}
+.change-color {
+  margin: 0 auto;
+}
+/* task-06 */
+#controls {
+  display: flex;
+  gap: 16px;
+  padding: 32px;
+  justify-content: center;
+  align-items: baseline;
+  max-width: 486px;
+  margin: 0 auto;
+}
+#controls input {
+  padding: 8px 72px;
+  border-radius: 8px;
+  border: 1px solid #808080;
+  color: #2e2f42;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.64px;
+}
+button[data-destroy] {
+  background-color: #ff4e4e;
+}
+
+#boxes {
+  max-width: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
 }

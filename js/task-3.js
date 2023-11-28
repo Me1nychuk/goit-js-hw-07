@@ -8,6 +8,3 @@ nameInput.addEventListener('input', (e) => {
         nameOutput.textContent = e.currentTarget.value;
     }
 })
-console.log("/////TASK_3/////");
-
-console.log("/////////////////");

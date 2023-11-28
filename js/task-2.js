@@ -27,6 +27,3 @@ images.forEach(image => {
   galleryFragment.appendChild(newItem);
 })
 gallery.appendChild(galleryFragment);
-console.log("/////TASK_2/////");
-
-console.log("/////////////////");

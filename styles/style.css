@@ -148,8 +148,6 @@ button[data-destroy] {
 .widget {
   padding: 100px 88px;
   border: solid 1px #9a9ba0;
-  max-width: 400px;
-  width: 400px;
 }
 .widget p {
   color: #2e2f42;

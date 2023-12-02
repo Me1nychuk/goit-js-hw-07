@@ -3,7 +3,6 @@ function getRandomHexColor() {
     .toString(16)
     .padStart(6, 0)}`;
 }
-
 const widget = document.querySelector('.widget');
 const changeColorBtn = document.querySelector('.change-color')
 const colorValue = document.querySelector('.color');
@@ -12,4 +11,3 @@ changeColorBtn.addEventListener("click", () => {
     widget.style.backgroundColor = newColor;
     colorValue.textContent = newColor;
 })
-
